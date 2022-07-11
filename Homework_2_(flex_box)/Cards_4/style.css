@@ -1,0 +1,52 @@
+body{
+    background: aquamarine;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+.container{
+    width: 800px;
+    display: flex;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.block{
+    background: dimgrey;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 340px;
+}
+
+img{
+    width: 90px;
+    border-radius: 50px;
+}
+
+.icon{
+    font-size: 35px;
+    color: aquamarine;
+    height: 45px;
+}
+
+.text{
+    width: 210px;
+    text-align: center;
+    color: azure;
+
+}
+
+.textTwo{
+    color: aquamarine;
+    font-size: 15px;
+    margin-top: 7px;
+}
+
+i:hover{
+    font-size: 42px;
+}
