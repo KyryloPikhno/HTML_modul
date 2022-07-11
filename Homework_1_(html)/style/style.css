@@ -1,0 +1,35 @@
+body {
+    background: bisque;
+}
+
+
+img {
+    width: 350px;
+}
+
+h1 {
+    background: aqua;
+    color: coral;
+}
+
+p {
+    background: darkgray;
+    color: red;
+}
+
+a {
+    color: lawngreen;
+}
+
+h2 {
+    background: coral;
+}
+
+ul {
+    background: blueviolet;
+}
+
+ul > li {
+    background: darksalmon;
+    color: yellow;
+}
