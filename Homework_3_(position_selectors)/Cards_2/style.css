@@ -1,0 +1,112 @@
+html,body{
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.border-radius{
+    border-radius:10px;
+}
+
+.main{
+    background: silver;
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    z-index: 1;
+}
+
+.item1{
+    background: darkgray;
+    height: 30px;
+    width: 80px;
+    left: 100px;
+}
+
+.position_bg{
+    position: fixed;
+    top: 15px ;
+    font-size: 25px;
+}
+
+.item2 {
+    right: 140px;
+}
+
+.item3{
+    right: 100px;
+    top: 16px;
+}
+
+.container1{
+    width: 100%;
+}
+
+.section1{
+    background: azure;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+
+.containerForBox{
+    /*background: silver;*/
+    width: 100%;
+    height: 150px;
+    position: absolute;
+    bottom: -75px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.box{
+    height: 150px;
+    width: 150px;
+    background:silver;
+}
+
+.section2{
+    background: lightyellow;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.text{
+    width: 1100px;
+    height: 100px;
+}
+
+.up{
+    background: gray;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    color: lightyellow;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    text-decoration: none;
+    transition: 1s;
+}
+
+.up:hover{
+    background: lightyellow;
+    color: black;
+    width: 60px;
+    height: 60px;
+    transition: 1s;
+}
+
+
+
+
+
