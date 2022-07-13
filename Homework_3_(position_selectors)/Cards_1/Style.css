@@ -1,0 +1,68 @@
+body{
+    background: azure;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.container{
+    margin:200px auto;
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+}
+
+div.container > div {
+    background: darkgray;
+    width: 250px;
+    height: 250px;
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    row-gap:10px;
+    align-items: center;
+    position: relative;
+    border: 2px solid black;
+}
+
+div > div.icon{
+    background: darkgray;
+    border: 2px solid black;
+    width: 87px;
+    height: 87px;
+    color: beige;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: absolute;
+    top: -53px;
+    transition: 1s;
+}
+
+div.container > div > p.text1 {
+    font-size: 20px;
+    margin-bottom: 0;
+
+}
+
+div.container > div > p.text2 {
+    width: 230px;
+    text-align: center;
+    line-height: 30px;
+    font-family: Arial;
+}
+
+div.container > div > button {
+    height: 40px;
+    width: 140px;
+    font-size: 15px;
+    background: beige;
+}
+
+.icon:hover{
+    width: 93px;
+    height: 93px;
+    font-size: 25px;
+    transition:.5s;
+}
