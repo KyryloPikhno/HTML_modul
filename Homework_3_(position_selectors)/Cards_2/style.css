@@ -15,6 +15,7 @@ html,body{
     height: 60px;
     position: fixed;
     z-index: 1;
+    box-shadow: 2px 2px 25px;
 }
 
 .item1{
@@ -104,6 +105,7 @@ html,body{
     width: 60px;
     height: 60px;
     transition: 1s;
+    box-shadow: 5px 5px 50px;
 }
 
 
