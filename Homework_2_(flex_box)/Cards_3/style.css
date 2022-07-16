@@ -1,0 +1,43 @@
+body{
+    background: dimgrey;
+}
+.window{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    column-gap: 10px;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: silver;
+    box-sizing: border-box;
+    width:650px;
+    border-radius: 5px;
+    border: 2px solid coral;
+}
+
+.item {
+    width: 490px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    color: coral;
+    margin: 27px 0 5px 0;
+}
+
+.text {
+    margin: 0 0 27px 0;
+}
+
+.icon {
+    width: 40px;
+    font-size: 50px;
+    margin-left: 15px;
+}
