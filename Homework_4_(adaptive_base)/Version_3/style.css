@@ -1,0 +1,111 @@
+body{
+    background: darkgray;
+}
+
+.gap{
+    gap: 10px;
+}
+
+.bg_gray{
+    background: gray;
+}
+
+.h500{
+    height: 500px;
+}
+
+.h250{
+    height: 250px;
+}
+
+.h150{
+    height: 150px;
+}
+
+.w100{
+    width: 100%;
+}
+
+.w80{
+    width: 80%;
+}
+
+.w60{
+    width: 60%;
+}
+
+.w50{
+    width: 50%;
+}
+
+.w20{
+    width: 20%;
+}
+
+.flex{
+    display: flex;
+}
+
+.container{
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.target{
+    flex-direction: column;
+}
+
+.Store{
+    height: 70px;
+}
+
+.Tools{
+    height: 70px;
+}
+
+.main{
+    flex-direction: column;
+}
+
+.textCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: honeydew;
+}
+
+.Nav2,.Nav3{
+    display: none;
+}
+
+@media screen and (max-width: 700px) {
+
+    .container{
+        width: 100%;
+    }
+
+    .gap{
+        gap: 3px;
+    }
+
+    .main{
+        display: none;
+    }
+
+    .Nav2,.Nav3{
+        display: flex;
+    }
+
+    .target{
+        width: 100%;
+    }
+
+    .section2{
+        flex-direction: column;
+    }
+
+    .Types,.Related{
+        width: 100%;
+    }
+}
